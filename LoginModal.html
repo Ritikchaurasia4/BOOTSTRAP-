@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="css/all.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="webfonts/">
+
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(images/d.jpg);
+            /* background-size: cover; */
+            background-size: 100% ;
+        }
+        :root
+      {
+        --mycolor:#1e1e1e;
+      }
+      .bg-mycolor
+      {
+        background: var(--mycolor) !important;
+      }
+      .text-mycolor
+      {
+        color:var(--mycolor) !important;
+      }
+      .a
+      {
+        min-height: 300px;
+      }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-sm-12">
+                <!-- --------------------- Start modal ----------------  -->
+
+                            <!-- Button trigger modal -->
+                <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Open  modal
+                </button>
+                
+                 
+                    <!-- <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"> Open Model </a> -->
+                 
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+
+                        <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div> -->
+
+                        <div class="modal-body">
+                           <div class="fs-2 text-center"> Login  <b class="text-info"> Form </b> 
+                            <a href="#" data-bs-dismiss="modal" class="btn btn-outline-danger ms-5 mb-2"> X </a>
+                           </div>
+                            
+                           <div class="col-12 p-5 bg-light a mx-auto" style ="margin-top:10%">
+
+                            <div class="text-center fs-3 mb-5"> Login <b class="text-mycolor">Form<i class="fa-solid fa-key fa-spin"></i></b></div>
+              
+              
+                           
+                              
+                           <div class="input-group mb-4">
+                             <span class="input-group-text bg-mycolor text-light" >
+                              <i class="fa-solid fa-user"></i>
+                             </span>
+                             <input type="text" placeholder="Username" class="form-control"/>
+                           </div>
+              
+                           <div class="input-group mb-3">
+                            <span class="input-group-text bg-mycolor text-light" >
+                             <i class="fa-solid fa-key"></i>
+                            </span>
+                            <input type="password" placeholder="Password" class="form-control"/>
+                           </div>
+
+                          <div style="margin-left:170px;">
+                            <input type="submit" class="btn bg-mycolor text-light" value="submit"/>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+              <!-- --------------------- End modal ----------------  -->
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
